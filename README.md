@@ -18,6 +18,7 @@ $ npm install @umm/game-object-extension-component
 
 ```c#
 using UnityEngine;
+// ココがポイント
 using GameObjectExtension;
 
 public class Hoge : MonoBehaviour {
@@ -45,6 +46,8 @@ public class Fuga : MonoBehaviour {
 public class Piyo : MonoBehaviour {
 }
 ```
+
+* `GameObjectExtension` namespace を `using` するコトで拡張が有効になります。
 
 # License
 
