@@ -48,4 +48,5 @@ Thumbs.db
 # ====== #
 # Custom #
 # ====== #
-
+Assets/Plugins.meta
+Assets/Plugins/Editor.meta
