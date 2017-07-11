@@ -1,10 +1,10 @@
 {
-  "name": "game-object-extension",
+  "name": "game-object-extension-component",
   "version": "0.1.0",
-  "description": "Extension class for UnityEngine.GameObject",
-  "homepage": "https://github.com/monry/game-object-extension",
+  "description": "Extension class for UnityEngine.GameObject to handling Component",
+  "homepage": "https://github.com/monry/game-object-extension-component",
   "bugs": {
-    "url": "https://github.com/monry/game-object-extension/issues"
+    "url": "https://github.com/monry/game-object-extension-component/issues"
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:monry/game-object-extension"
+    "url": "git@github.com:monry/game-object-extension-component"
   },
   "files": [
     "Assets",
