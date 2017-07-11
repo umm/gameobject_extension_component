@@ -1,5 +1,5 @@
 {
-  "name": "game-object-extension-component",
+  "name": "@umm/game-object-extension-component",
   "version": "0.1.0",
   "description": "Extension class for UnityEngine.GameObject to handling Component",
   "homepage": "https://github.com/monry/game-object-extension-component",
