@@ -7,6 +7,7 @@
 
 * 毎回 `if (gameObject.GetComponent<Hoge>() != null)` とか書くのが面倒だったのが発端。
 * 「未追加なら追加」的な操作も何回書いたか分からんレベルだったので、同じく拡張する。
+* AddComponent 後にインスタンスフィールドを初期化したくなる衝動に駆られることも多かったので、それも追加。
 
 # Install
 
@@ -24,9 +25,16 @@ using GameObjectExtension;
 public class Hoge : MonoBehaviour {
     
     public void Start() {
+        // コンポーネントの有無をチェック
         if (this.gameObject.HasComponent<Fuga>()) {
             Debug.Log("Hoge has component: Fuga");
         }
+        // AddComponent 直後 (= Awake() 直後) に呼び出される処理を記述
+        this.gameObject.AddComponent<Piyo>(
+            (piyoInstance) => {
+                piyoInstance.isPonyo = true;
+            }
+        );
     }
 
 }
@@ -44,6 +52,9 @@ public class Fuga : MonoBehaviour {
 }
 
 public class Piyo : MonoBehaviour {
+
+    public bool isPonyo = false;
+
 }
 ```
 
