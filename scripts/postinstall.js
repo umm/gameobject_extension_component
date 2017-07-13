@@ -2,7 +2,7 @@ var mkdirp = require('mkdirp');
 var path = require('path');
 var ncp = require('ncp');
 var pascalCase = require('pascal-case');
-var package = require('./package.json');
+var package = require('../package.json');
 
 var script_directory = __dirname;
 var has_scope = false;
