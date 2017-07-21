@@ -1,13 +1,14 @@
 {
-  "name": "@umm/game-object-extension-component",
+  "name": "@umm/gameobject_extension_component",
   "version": "1.1.0",
   "description": "Extension class for UnityEngine.GameObject to handling Component",
-  "homepage": "https://github.com/monry/game-object-extension-component",
+  "homepage": "https://github.com/umm-projects/gameobject_extension_component",
   "bugs": {
-    "url": "https://github.com/monry/game-object-extension-component/issues"
+    "url": "https://github.com/umm-projects/gameobject_extension_component/issues"
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
+    "postuninstall": "node scripts/postuninstall.js",
     "build:test": "tar -tf $(npm pack -s) && $(npm bin)/rimraf $_"
   },
   "author": {
@@ -18,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:monry/game-object-extension-component"
+    "url": "git@github.com:umm-projects/gameobject_extension_component"
   },
   "files": [
     "Assets",
@@ -26,9 +27,8 @@
   ],
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "ncp": "^2.0.0",
-    "pascal-case": "^2.0.1",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "rsync": "^0.6.1"
   },
   "devDependencies": {}
 }
