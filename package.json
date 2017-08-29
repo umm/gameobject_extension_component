@@ -32,7 +32,5 @@
     "rimraf": "^2.6.1"
   },
   "devDependencies": {},
-  "optionalDependencies": {
-    "@umm/unity3drider": "^0.1.10"
-  }
+  "optionalDependencies": {}
 }
