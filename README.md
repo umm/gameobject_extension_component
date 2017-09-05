@@ -12,7 +12,7 @@
 # Install
 
 ```shell
-$ npm install @umm/game-object-extension-component
+$ npm install github:umm-projects/gameobject_extension_component.git
 ```
 
 # Usage
