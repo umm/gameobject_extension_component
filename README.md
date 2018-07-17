@@ -12,7 +12,7 @@
 # Install
 
 ```shell
-yarn add "umm-projects/gameobject_extension_component#^1.0.0"
+yarn add "umm/gameobject_extension_component#^1.0.0"
 ```
 
 # Usage

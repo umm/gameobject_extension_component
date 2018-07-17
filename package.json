@@ -2,9 +2,9 @@
   "name": "@umm/gameobject_extension_component",
   "version": "1.3.0",
   "description": "Extension class for UnityEngine.GameObject to handling Component",
-  "homepage": "https://github.com/umm-projects/gameobject_extension_component",
+  "homepage": "https://github.com/umm/gameobject_extension_component",
   "bugs": {
-    "url": "https://github.com/umm-projects/gameobject_extension_component/issues"
+    "url": "https://github.com/umm/gameobject_extension_component/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -22,14 +22,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/gameobject_extension_component"
+    "url": "git@github.com:umm/gameobject_extension_component"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {},
   "optionalDependencies": {}
